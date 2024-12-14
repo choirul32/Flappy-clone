@@ -1,0 +1,35 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Pokedex.uss?fileID=7433441132597879392&amp;guid=3aa1e4f233ecf844aa10794c715fe396&amp;type=3#Pokedex" />
+    <engine:VisualElement name="VisualElement" style="flex-grow: 1; padding-top: 50px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: rgb(156, 94, 88); bottom: 0; border-top-left-radius: 25px; border-top-right-radius: 25px;">
+        <engine:VisualElement style="flex-grow: 0; align-items: flex-end;">
+            <engine:Button text="&#10;" name="button-exit-detail" style="background-image: url(&quot;project://database/Assets/2D/reject.png?fileID=-2495537783218611662&amp;guid=94db76a2b10194446a74767cb0afec5a&amp;type=3#reject_0&quot;); background-color: rgba(188, 188, 188, 0); -unity-background-scale-mode: scale-to-fit; width: 50px; height: 50px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+        </engine:VisualElement>
+        <engine:Label text="Detail" name="Label" style="-unity-font-definition: url(&quot;project://database/Assets/2D/OpenSans-Regular.ttf?fileID=12800000&amp;guid=2a557dc0046da3a4eb56948b6e46adc5&amp;type=3#OpenSans-Regular&quot;); font-size: 50px; -unity-font-style: bold; color: rgb(255, 255, 255);" />
+        <engine:VisualElement style="flex-grow: 1;">
+            <engine:VisualElement style="flex-grow: 0; flex-direction: row;">
+                <engine:VisualElement style="flex-grow: 1; width: 30%;">
+                    <engine:Label text="Type" style="font-size: 30px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/2D/OpenSans-Regular.ttf?fileID=12800000&amp;guid=2a557dc0046da3a4eb56948b6e46adc5&amp;type=3#OpenSans-Regular&quot;); color: rgba(255, 255, 255, 0.7);" />
+                </engine:VisualElement>
+                <engine:VisualElement style="flex-grow: 1; width: 70%;">
+                    <engine:Label text="Food" style="font-size: 30px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/2D/OpenSans-Regular.ttf?fileID=12800000&amp;guid=2a557dc0046da3a4eb56948b6e46adc5&amp;type=3#OpenSans-Regular&quot;); color: rgba(255, 255, 255, 0.9);" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement style="flex-grow: 0; flex-direction: row;">
+                <engine:VisualElement style="flex-grow: 1; width: 30%;">
+                    <engine:Label text="Effect" style="font-size: 30px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/2D/OpenSans-Regular.ttf?fileID=12800000&amp;guid=2a557dc0046da3a4eb56948b6e46adc5&amp;type=3#OpenSans-Regular&quot;); color: rgba(255, 255, 255, 0.7);" />
+                </engine:VisualElement>
+                <engine:VisualElement style="flex-grow: 1; width: 70%;">
+                    <engine:Label text="Heal, Boost" style="font-size: 30px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/2D/OpenSans-Regular.ttf?fileID=12800000&amp;guid=2a557dc0046da3a4eb56948b6e46adc5&amp;type=3#OpenSans-Regular&quot;); color: rgba(255, 255, 255, 0.9);" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement style="flex-grow: 0; flex-direction: row;">
+                <engine:VisualElement style="flex-grow: 1; width: 30%;">
+                    <engine:Label text="Other" style="font-size: 30px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/2D/OpenSans-Regular.ttf?fileID=12800000&amp;guid=2a557dc0046da3a4eb56948b6e46adc5&amp;type=3#OpenSans-Regular&quot;); color: rgba(255, 255, 255, 0.7);" />
+                </engine:VisualElement>
+                <engine:VisualElement style="flex-grow: 1; width: 70%;">
+                    <engine:Label text="Ideal when players need a stamina boost." style="font-size: 30px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/2D/OpenSans-Regular.ttf?fileID=12800000&amp;guid=2a557dc0046da3a4eb56948b6e46adc5&amp;type=3#OpenSans-Regular&quot;); color: rgba(255, 255, 255, 0.9); height: 96px; -unity-text-align: upper-left; white-space: pre-wrap;" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

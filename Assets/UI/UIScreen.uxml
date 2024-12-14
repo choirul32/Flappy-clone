@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="Pokedex" src="project://database/Assets/UI/Pokedex.uxml?fileID=9197481963319205126&amp;guid=2913d5c007fb0664d9bb94f81cad0073&amp;type=3#Pokedex" />
+    <engine:Template name="Detail" src="project://database/Assets/UI/Detail.uxml?fileID=9197481963319205126&amp;guid=3f9fb3046dc4b8147835ad58f0cfe594&amp;type=3#Detail" />
+    <Style src="project://database/Assets/UI%20Toolkit/Pokedex.uss?fileID=7433441132597879392&amp;guid=3aa1e4f233ecf844aa10794c715fe396&amp;type=3#Pokedex" />
+    <engine:Instance template="Pokedex" name="Pokedex" style="display: flex; height: 100%;" />
+    <engine:Instance template="Detail" name="Detail" class="detailsheet" style="display: flex; position: absolute; width: 100%; bottom: 0; height: 600px; transition-property: all; transition-duration: 1s; transition-timing-function: ease; transition-delay: 0s; -unity-background-scale-mode: scale-to-fit; left: 0; right: -143px; white-space: normal; justify-content: space-between; align-self: stretch;" />
+</engine:UXML>

@@ -1,0 +1,2 @@
+D:\GAME DEVELOPMENT\Flappy clone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\GAME DEVELOPMENT\Flappy clone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt

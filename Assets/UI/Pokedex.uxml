@@ -1,0 +1,70 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Pokedex.uss?fileID=7433441132597879392&amp;guid=3aa1e4f233ecf844aa10794c715fe396&amp;type=3#Pokedex" />
+    <engine:VisualElement style="flex-grow: 1; padding-top: 50px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: rgb(243, 243, 243); height: 100%;">
+        <engine:VisualElement style="flex-grow: 0; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-bottom: 10px;">
+            <engine:Button class="button-header" style="background-image: url(&quot;project://database/Assets/2D/right-arrow.png?fileID=21300000&amp;guid=8ef5ad733436c264d80e1c987771f7af&amp;type=3#right-arrow&quot;); -unity-background-scale-mode: scale-to-fit; background-color: rgba(188, 188, 188, 0); rotate: 180deg; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+            <engine:Button text="&#10;" class="button-header" style="background-image: url(&quot;project://database/Assets/2D/list.png?fileID=21300000&amp;guid=1a0c6c1e55eb4d94c83d67d8ecbf3cd3&amp;type=3#list&quot;); -unity-background-scale-mode: scale-to-fit; background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 0; height: 32px; margin-top: 20px; margin-bottom: 20px; white-space: normal; -unity-text-align: middle-left;">
+            <engine:Label text="Item Collection" style="height: 24px; -unity-font-definition: url(&quot;project://database/Assets/2D/OpenSans-Regular.ttf?fileID=12800000&amp;guid=2a557dc0046da3a4eb56948b6e46adc5&amp;type=3#OpenSans-Regular&quot;); font-size: 40px; -unity-font-style: bold; color: rgb(53, 53, 53);" />
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 1; flex-direction: column; display: flex; visibility: visible; margin-top: 10px; margin-bottom: 10px;">
+            <engine:VisualElement style="flex-grow: 0; flex-direction: row; height: auto; width: 100%; justify-content: space-between; align-items: stretch; align-content: auto; flex-wrap: nowrap; align-self: flex-start;">
+                <engine:Button text="&#10;" name="button-apple" class="content-select" style="flex-grow: 1; background-color: rgb(176, 53, 53);">
+                    <engine:Label text="Apple" name="Title-Pokemon" class="title-pokemon" style="font-size: 24px;" />
+                    <engine:Label text="Grass" class="attribute-text" />
+                    <engine:Label text="Poison" class="attribute-text" />
+                    <engine:VisualElement class="content-image" style="background-image: url(&quot;project://database/Assets/Homeless/UI%20Assets/Item_Icons/UI_Icon_Apple.png?fileID=21300000&amp;guid=adaac68d8e5d693499597113889d11d3&amp;type=3#UI_Icon_Apple&quot;);" />
+                </engine:Button>
+                <engine:Button text="&#10;" name="Meat" class="content-select" style="flex-grow: 1; background-color: rgb(176, 52, 52); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                    <engine:Label text="Meat" name="Title-Pokemon" class="title-pokemon" style="font-size: 24px;" />
+                    <engine:Label text="Grass" class="attribute-text" />
+                    <engine:Label text="Poison" class="attribute-text" />
+                    <engine:VisualElement class="content-image" style="background-image: url(&quot;project://database/Assets/Homeless/UI%20Assets/Item_Icons/UI_Icon_Meat_1.png?fileID=21300000&amp;guid=3df3c7a773f95f5429f29f0c38bee4a1&amp;type=3#UI_Icon_Meat_1&quot;);" />
+                </engine:Button>
+            </engine:VisualElement>
+            <engine:VisualElement style="flex-grow: 0; flex-direction: row; height: auto; width: 100%; justify-content: space-between; align-items: stretch; align-content: auto; flex-wrap: nowrap;">
+                <engine:Button text="&#10;" name="Chesee" class="content-select" style="flex-grow: 1; background-color: rgb(255, 178, 28);">
+                    <engine:Label text="Cheese" name="Title-Pokemon" class="title-pokemon" style="font-size: 24px;" />
+                    <engine:Label text="Grass" class="attribute-text" />
+                    <engine:Label text="Poison" class="attribute-text" />
+                    <engine:VisualElement class="content-image" style="background-image: url(&quot;project://database/Assets/Homeless/UI%20Assets/Item_Icons/UI_Icon_Cheese.png?fileID=21300000&amp;guid=97362c8821fe2f7449927570ad6d4d6a&amp;type=3#UI_Icon_Cheese&quot;);" />
+                </engine:Button>
+                <engine:Button text="&#10;" name="Potion" class="content-select" style="flex-grow: 1; background-color: rgb(89, 163, 127);">
+                    <engine:Label text="Potion" name="Title-Pokemon" class="title-pokemon" style="font-size: 24px;" />
+                    <engine:Label text="Grass" class="attribute-text" />
+                    <engine:Label text="Poison" class="attribute-text" />
+                    <engine:VisualElement class="content-image" style="background-image: url(&quot;project://database/Assets/Homeless/UI%20Assets/Item_Icons/UI_Icon_Potion_1.png?fileID=21300000&amp;guid=720936d3887635548b5eca76a7978798&amp;type=3#UI_Icon_Potion_1&quot;);" />
+                </engine:Button>
+            </engine:VisualElement>
+            <engine:VisualElement style="flex-grow: 0; flex-direction: row; height: auto; width: 100%; justify-content: space-between; align-items: stretch; align-content: auto; flex-wrap: nowrap; align-self: flex-start;">
+                <engine:Button text="&#10;" name="Mushroom" class="content-select" style="flex-grow: 1; background-color: rgb(138, 90, 68);">
+                    <engine:Label text="Mushroom" name="Title-Pokemon" class="title-pokemon" style="font-size: 24px;" />
+                    <engine:Label text="Grass" class="attribute-text" />
+                    <engine:Label text="Poison" class="attribute-text" />
+                    <engine:VisualElement class="content-image" style="background-image: url(&quot;project://database/Assets/Homeless/UI%20Assets/Item_Icons/UI_Icon_Mushroom.png?fileID=21300000&amp;guid=5343b7115bd89c64982db3f2216a0c0f&amp;type=3#UI_Icon_Mushroom&quot;);" />
+                </engine:Button>
+                <engine:Button text="&#10;" name="Hourglass" class="content-select" style="flex-grow: 1; background-color: rgb(138, 90, 68); -unity-background-image-tint-color: rgb(0, 0, 0);">
+                    <engine:Label text="Hourglass" name="Title-Pokemon" class="title-pokemon" style="font-size: 24px;" />
+                    <engine:Label text="Grass" class="attribute-text" />
+                    <engine:Label text="Poison" class="attribute-text" />
+                    <engine:VisualElement class="content-image" style="background-image: url(&quot;project://database/Assets/Homeless/UI%20Assets/Item_Icons/UI_Icon_Hourglass.png?fileID=21300000&amp;guid=f5b592c8f7ef05841877f70aee73a432&amp;type=3#UI_Icon_Hourglass&quot;);" />
+                </engine:Button>
+            </engine:VisualElement>
+            <engine:VisualElement style="flex-grow: 0; flex-direction: row; height: auto; width: 100%; justify-content: space-between; align-items: stretch; align-content: auto; flex-wrap: nowrap;">
+                <engine:Button text="&#10;" name="Scrool" class="content-select" style="flex-grow: 1; background-color: rgb(138, 90, 68);">
+                    <engine:Label text="Scrool" name="Title-Pokemon" class="title-pokemon" style="font-size: 24px;" />
+                    <engine:Label text="Grass" class="attribute-text" />
+                    <engine:Label text="Poison" class="attribute-text" />
+                    <engine:VisualElement class="content-image" style="background-image: url(&quot;project://database/Assets/Homeless/UI%20Assets/Item_Icons/UI_Icon_scroll.png?fileID=21300000&amp;guid=166b89c253b5c5f42823a753d2db9770&amp;type=3#UI_Icon_scroll&quot;);" />
+                </engine:Button>
+                <engine:Button text="&#10;" name="Potion" class="content-select" style="flex-grow: 1; background-color: rgb(60, 60, 60);">
+                    <engine:Label text="Bomb" name="Title-Pokemon" class="title-pokemon" style="font-size: 24px;" />
+                    <engine:Label text="Grass" class="attribute-text" />
+                    <engine:Label text="Poison" class="attribute-text" />
+                    <engine:VisualElement class="content-image" style="background-image: url(&quot;project://database/Assets/Homeless/UI%20Assets/Item_Icons/UI_Icon_bomb.png?fileID=21300000&amp;guid=b8ee956496fbb764e91b82651871348e&amp;type=3#UI_Icon_bomb&quot;);" />
+                </engine:Button>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

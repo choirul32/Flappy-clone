@@ -1,0 +1,71 @@
+.content-select {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 200px;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 40%;
+}
+
+.attribute-text {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: rgba(207, 207, 207, 0.24);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: rgba(255, 255, 255, 0.59);
+    -unity-font-definition: url("project://database/Assets/2D/Montserrat-Regular.ttf?fileID=12800000&guid=c391758a7a982964fa354409ac714e6a&type=3#Montserrat-Regular");
+}
+
+.title-pokemon {
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/2D/Montserrat-Regular.ttf?fileID=12800000&guid=c391758a7a982964fa354409ac714e6a&type=3#Montserrat-Regular");
+    -unity-font-style: bold;
+}
+
+.button-header {
+    width: 40px;
+    height: 40px;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.6);
+}
+
+.content-select:hover {
+    background-color: rgba(65, 65, 65, 0.61);
+    scale: 1.05 1.05;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.content-image {
+    flex-grow: 1;
+    position: absolute;
+    flex-direction: column;
+    -unity-background-scale-mode: scale-to-fit;
+    margin-top: auto;
+    margin-left: auto;
+    width: 100px;
+    height: 100px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.detailsheet {
+    translate: 0 100%;
+}
+
+.detailsheet--up {
+    translate: 0 0;
+}

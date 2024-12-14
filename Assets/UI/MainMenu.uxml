@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement style="flex-grow: 1; align-self: center; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; justify-content: center; align-items: stretch; align-content: auto; width: 684px; flex-direction: column;">
+        <engine:VisualElement style="flex-grow: 1; height: -252px; background-image: url(&quot;project://database/Assets/2D/Mobile%20-%20Flappy%20Bird%20-%20Version%2012%20Sprites.png?fileID=8181548382722186305&amp;guid=8e197abbd87e30447a9941b7608f5369&amp;type=3#Mobile - Flappy Bird - Version 12 Sprites_16&quot;); align-items: auto; width: 597px;" />
+        <engine:VisualElement style="flex-grow: 1; height: 102px;" />
+        <engine:VisualElement style="flex-grow: 1; height: 102px;">
+            <engine:Label text="Label" />
+            <engine:Button text="&#10;" name="button-start" style="background-image: url(&quot;project://database/Assets/2D/Mobile%20-%20Flappy%20Bird%20-%20Version%2012%20Sprites.png?fileID=3255952901831296901&amp;guid=8e197abbd87e30447a9941b7608f5369&amp;type=3#Mobile - Flappy Bird - Version 12 Sprites_27&quot;); align-items: stretch; align-self: center; background-size: 220px 20px; -unity-background-scale-mode: stretch-to-fill; -unity-slice-scale: 1px; height: 147px; width: 279px; background-color: rgba(188, 188, 188, 0);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

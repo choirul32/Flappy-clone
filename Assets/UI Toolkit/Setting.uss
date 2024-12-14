@@ -1,0 +1,31 @@
+.menu-center-panel {
+}
+
+.menu-buttons-list {
+    flex-grow: 0;
+    justify-content: flex-start;
+    width: 50%;
+    align-items: center;
+}
+
+.button-menu {
+    background-color: rgba(103, 107, 102, 0.54);
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/2D/04B_19__.TTF?fileID=12800000&guid=6705da5dacfb33b41b1171ce08d0f9d2&type=3#04B_19__");
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.button-menu:hover {
+    background-color: rgba(58, 242, 83, 0.62);
+    scale: 1.1 1;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.button-menu:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
